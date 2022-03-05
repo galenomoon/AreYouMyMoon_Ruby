@@ -5,6 +5,7 @@ require "tty-spinner"
 require "pastel"
 pastel = Pastel.new
 prompt = TTY::Prompt.new
+
 date = Date.today 
 desenho = <<~EOF 
 ----╭━╮╭━╮--------╭━━━╮--------
@@ -101,7 +102,7 @@ if resposta == "S" && (nome === "Luana" || nome === "Lua")  #===================
         while cadeado == false
             print "Digite a Senha: "
             senha = gets.chomp
-            if senha == "21082021"
+            if senha == "21082021" || senha == "210821"
                 cadeado = true
                 puts pastel.green.inverse("Senha Correta")
                 puts "━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ "
@@ -173,11 +174,11 @@ if resposta == "S" && (nome === "Luana" || nome === "Lua")  #===================
         sleep(2)
         puts "- teremos uma #{pastel.bold.magenta("família")}"
         sleep(2)
-        puts "- #{pastel.bold.magenta("prometo")}te ajudar com literalmente todos os seus #{pastel.bold.magenta("sonhos")}"
+        puts "- #{pastel.bold.magenta("prometo")} te ajudar com literalmente todos os seus #{pastel.bold.magenta("sonhos")}"
         sleep(2)
-        puts "- #{pastel.bold.magenta("vamos")}ser muito #{pastel.bold.magenta("felizes")} ainda mais do que já somos"
+        puts "- #{pastel.bold.magenta("vamos")} ser muito #{pastel.bold.magenta("felizes")} ainda mais do que já somos"
         sleep(2)
-        puts "- eu tenho #{pastel.bold.magenta("muito orgulho")}da mulher que você é"
+        puts "- eu tenho #{pastel.bold.magenta("muito orgulho")} da mulher que você é"
         sleep(2)
         puts "- você é #{pastel.bold.magenta("forte")}"
         sleep(2)
@@ -189,7 +190,7 @@ if resposta == "S" && (nome === "Luana" || nome === "Lua")  #===================
         sleep(2)
         puts "- você é meu #{pastel.bold.magenta("mundo cor de rosa")}"
         sleep(2)
-        puts "- você é #{pastel.bold.magenta("meu")}motivo pra digitar #{pastel.bold.magenta("+ de 250 linhas")}de código só pra tirar um #{pastel.bold.magenta("sorriso")}seu"
+        puts "- você é #{pastel.bold.magenta("meu")} motivo pra digitar #{pastel.bold.magenta("+ de 250 linhas")} de código só pra tirar um #{pastel.bold.magenta("sorriso")} seu"
         sleep(2)
         puts "- você é #{pastel.bold.magenta("minha inspiração")}"
         sleep(2)
