@@ -154,47 +154,48 @@ if resposta == "S" && (nome === "Luana" || nome === "Lua")  #===================
         
         spinner = TTY::Spinner.new("[:spinner] Abrindo Vortex Temporal ")
         spinner.auto_spin
-        sleep(1)
+        sleep(2)
         spinner.success(pastel.bold.green("(Espaço-Tempo Estabilizado)"))
         spinner = TTY::Spinner.new("[:spinner] Ativando Dimensão Infinita")
         spinner.auto_spin
-        sleep(1)
+        sleep(2)
         spinner.success(pastel.bold.green("(Modo Eternização Ativada)"))
         sleep(1)
         pastel.bold.green("(Modo Eternização Ativada)")
-
+        sleep(2)
+        
         puts " "
         puts pastel.bold.blue("--- EU PRECISO TE DIZER QUE: ---")
         
-        puts "- eu te amo"
+        puts "- eu te #{pastel.bold.magenta("amo")}"
         sleep(2)
-        puts "- você é a mulher com quem vou me casar"
+        puts "- você #{pastel.bold.magenta("é")} a mulher com quem vou me #{pastel.bold.magenta("casar")}"
         sleep(2)
-        puts "- teremos uma família"
+        puts "- teremos uma #{pastel.bold.magenta("família")}"
         sleep(2)
-        puts "- prometo te ajudar com literalmente todos os seus sonhos"
+        puts "- #{pastel.bold.magenta("prometo")}te ajudar com literalmente todos os seus #{pastel.bold.magenta("sonhos")}"
         sleep(2)
-        puts "- vamos ser muito felizes, ainda mais do que já somos"
+        puts "- #{pastel.bold.magenta("vamos")}ser muito #{pastel.bold.magenta("felizes")} ainda mais do que já somos"
         sleep(2)
-        puts "- eu tenho muito orgulho da mulher que você é"
+        puts "- eu tenho #{pastel.bold.magenta("muito orgulho")}da mulher que você é"
         sleep(2)
-        puts "- você é forte"
+        puts "- você é #{pastel.bold.magenta("forte")}"
         sleep(2)
-        puts "- você é linda"
+        puts "- você é #{pastel.bold.magenta("linda")}"
         sleep(2)
-        puts "- você é a melhor namorada do mundo"
+        puts "- você é a #{pastel.bold.magenta("melhor namorada do mundo")}"
         sleep(2)
-        puts "- você é meu roxo"
+        puts "- você é meu #{pastel.bold.magenta("roxo")}"
         sleep(2)
-        puts "- você é meu mundo cor de rosa"
+        puts "- você é meu #{pastel.bold.magenta("mundo cor de rosa")}"
         sleep(2)
-        puts "- você é meu motivo pra digitar + de 200 linhas de código só pra tirar um sorriso seu"
+        puts "- você é #{pastel.bold.magenta("meu")}motivo pra digitar #{pastel.bold.magenta("+ de 250 linhas")}de código só pra tirar um #{pastel.bold.magenta("sorriso")}seu"
         sleep(2)
-        puts "- você é minha inspiração"
+        puts "- você é #{pastel.bold.magenta("minha inspiração")}"
         sleep(2)
-        puts "- você é tudo"
+        puts "- você é #{pastel.bold.magenta("tudo")}"
         sleep(2)
-        puts "- você é a minha lua que tem luz própria"
+        puts "- você é a #{pastel.bold.magenta("minha lua que tem luz própria")}"
         sleep(2)
         puts "- luz essa que me cativou de tal forma"
         sleep(2)
@@ -204,21 +205,24 @@ if resposta == "S" && (nome === "Luana" || nome === "Lua")  #===================
         sleep(2)
         puts "- à 130km de distância kkk"
         sleep(2)
-        puts "- eu te amo"
+        puts "- #{pastel.bold.magenta("eu te amo")}"
         sleep(2)
-        puts "- obrigado por tudo"
+        puts "- #{pastel.bold.magenta("obrigado por tudo")}"
         sleep(2)
-        puts pastel.bold.magenta("- com amor, seu Astronauta")
+        puts "com amor, #{pastel.bold.magenta("seu Astronauta")}"
         sleep(2)
-
+        puts ".・。.・゜✭・.・✫・゜・。..・。.・"
+        sleep(2)
         #-- FINAL DA APLICAÇÂO
         spinner = TTY::Spinner.new("[:spinner] Fechando Carta")
         spinner.auto_spin
         sleep(2)
         spinner.success(pastel.bold.green("(Concluído)"))
         sleep(2)
-        pastel.inverse.magenta("Tchauzinho ^^")
-
+        puts ""
+        puts ".・。.・゜✭・.・✫・゜・。..・。.・"
+        puts pastel.inverse.magenta("Tchauzinho ^^")
+        puts ".・。.・゜✭・.・✫・゜・。..・。.・"
 
     # -- Se o SOBRENOME não for o CERTO
     else
